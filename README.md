@@ -19,27 +19,35 @@ The first prototype was built during the [eco2fest](eco2fest.com)
 
 #### NFC Reader to Arduino Nano diagram
 
-|    NFC  |: Arduino             |
-|---------|:---------------------|
-|    3.3v |: 3.3v Pin            |
-| SDA(SS) |: Pin 10 Configurable |
-|     SCK |: Pin 13              |
-|    MOSI |: Pin 11              |
-|    MISO |: Pin 12              |
-|     GND |: GND Pin             |
-|     RST |: Pin 9 Configurable  |
+|    NFC  | Arduino             |
+|---------|---------------------|
+|    3.3v | 3.3v Pin            |
+| SDA(SS) | Pin 10 Configurable |
+|     SCK | Pin 13              |
+|    MOSI | Pin 11              |
+|    MISO | Pin 12              |
+|     GND | GND Pin             |
+|     RST | Pin 9 Configurable  |
 	  
 #### Relay breakout
-       5v - 5v Pin
-      GND - GND Pin
-   Signal - Pin 4
+
+|  Relay  | Arduino |
+|---------|---------|
+|      5v | 5v Pin  |
+|     GND | GND Pin |
+|  Signal | Pin 4   |
    
    
-#### 8x8 LED matrix:
-       5v (red) - 5v Pin
-    GND (black) - GND Pin
-    CLK (white) - Pin A5
-     DAT (gray) - Pin A4
+#### 8x8 LED matrix
+
+|  Matrix  |  Arduino  |
+|----------|-----------|
+|   5v     | 5v Pin    |
+|  GND     | GND Pin   |
+|  CLK     | Pin A5    |
+|  DAT     | Pin A4    |
+
+
      
     
   
