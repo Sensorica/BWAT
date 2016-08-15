@@ -18,6 +18,9 @@ The first prototype was built during the [eco2fest](eco2fest.com)
 ### Installation
 
 #### NFC Reader to Arduino Nano diagram
+
+ |    NFC  | Arduino             |
+ |---------|---------------------|
  |    3.3v | 3.3v Pin            |
  | SDA(SS) | Pin 10 Configurable |
  |     SCK | Pin 13 / ICSP-3     |
