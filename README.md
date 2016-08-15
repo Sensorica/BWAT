@@ -35,8 +35,8 @@ Installation:
 
        5v (red) --- 5v Pin
     GND (black) --- GND Pin
-    SCK (white) --- Pin A5
-     SDA (gray) --- Pin A4
+    CLK (white) --- Pin A5
+     DAT (gray) --- Pin A4
     
   
   
