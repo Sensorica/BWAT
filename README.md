@@ -15,7 +15,7 @@ The first prototype was built during the [eco2fest](eco2fest.com)
 * 5V relay breakout board
 * 8x8 LED matrix with I2C backpack
 
-###Installation:
+###Installation
 
 #### NFC Reader to Arduino Nano diagram
      3.3v - 3.3v Pin
