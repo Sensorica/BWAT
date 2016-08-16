@@ -9,11 +9,11 @@ The first prototype was built during the [eco2fest](eco2fest.com)
 
 ### Components
 
-* Arduino Nano 328P
-* 12VDC door striker Note: Must be "fail secure"
-* MFRC-522 reader/writer 
-* 5V relay breakout board
-* 8x8 LED matrix with I2C backpack
+* [Arduino Nano 328P](https://www.arduino.cc/en/Main/ArduinoBoardNano)
+* [12VDC door striker Note: Must be "fail secure"](https://abra-electronics.com/electromechanical/solenoids/sol-door-12v-12-vdc-cabinet-door-style-solenoid.html)
+* [MFRC-522 reader/writer](http://www.nxp.com/documents/data_sheet/MFRC522.pdf)
+* [5V relay breakout board](https://abra-electronics.com/electromechanical/relays/relay-modules-shields/rm-1-arduino-relay-module.html)
+* [8x8 LED matrix with I2C backpack](https://learn.adafruit.com/adafruit-led-backpack/0-8-8x8-matrix)
 
 ### Installation
 
@@ -47,12 +47,9 @@ The first prototype was built during the [eco2fest](eco2fest.com)
 |  CLK     | Pin A5    |
 |  DAT     | Pin A4    |
 
-
-     
-    
-  
   
 #### Dependencies 
 
-- Mifare RC522 device library
-- Adafruit LED Backpack library
+- [Arduino MFRC-522 device library](https://github.com/miguelbalboa/rfid)
+- [Adafruit LED Backpack library](https://github.com/adafruit/Adafruit-LED-Backpack-Library)
+- [Adafruit GFX library](https://github.com/adafruit/Adafruit-LED-Backpack-Library)
